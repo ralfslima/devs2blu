@@ -1,3 +1,0 @@
-Tudo bem?
-
-Estou aprendendo a utilizar Git e GitHub.
