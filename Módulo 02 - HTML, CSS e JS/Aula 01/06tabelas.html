@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>06 - Tabelas</title>
+</head>
+<body>
+    <!-- Exemplo 01 -->
+    <table border="1">
+        <tr>
+            <td>Java</td>
+            <td>C#</td>
+            <td>Python</td>
+        </tr>
+
+        <tr>
+            <td>HTML</td>
+            <td>CSS</td>
+            <td>JavaScript</td>
+        </tr>
+    </table> 
+
+    <!-- Linha -->
+    <hr>
+
+    <!-- Exemplo 02 -->
+    <table border="1">
+        <!-- Cabeçalho de tabela -->
+        <thead>
+            <tr>
+                <th>Curso</th>
+                <th>Turno</th>
+            </tr>
+        </thead>
+
+        <!-- Corpo de tabela -->
+        <tbody>
+            <tr>
+                <td>Java</td>
+                <td>Noturno</td>
+            </tr>
+            
+            <tr>
+                <td>Python</td>
+                <td>Matutino</td>
+            </tr>
+            
+            <tr>
+                <td>C#</td>
+                <td>Noturno</td>
+            </tr>
+        </tbody> 
+
+        <!-- Rodapé de tabela -->
+        <tfoot>
+            <tr>
+                <td colspan="2">Total: 3 cursos</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!-- Linha -->
+    <hr>
+
+    <!-- Exemplo 03 -->
+    <table border="1">
+        <tr>
+            <td>1</td>
+            <td colspan="2">2</td>
+        </tr>
+        
+        <tr>
+            <td rowspan="2">4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+
+        <tr>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+    </table>
+
+</body>
+</html>

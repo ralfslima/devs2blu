@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>07 - Formulário</title>
+</head>
+<body>
+    <!-- Exemplo 01 -->
+    <form>
+        <input type="text"   placeholder="Digite algo...">
+        <input type="number" placeholder="Informe um número">
+        <input type="file">
+
+        <fieldset>
+            <legend>Treinamentos de julho</legend>
+            
+            <input type="checkbox" id="java">
+            <label for="java">Java</label>
+            
+            <input type="checkbox" id="c#">
+            <label for="c#">C#</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Turno</legend>
+
+            <input type="radio" id="matutino" name="turno">
+            <label for="matutino">Matutino</label>
+
+            <input type="radio" id="vespertino" name="turno">
+            <label for="vespertino">Vespertino</label>
+
+            <input type="radio" id="noturno" name="turno">
+            <label for="noturno">Noturno</label>
+        </fieldset>
+
+        <input type="button" value="Enviar">
+    </form> 
+
+    <!-- Linha -->
+    <hr>
+
+    <!-- Exemplo 02 -->
+    <form action="https://www.proway.com.br">
+        <input type="submit" value="Clique aqui">
+    </form>
+</body>
+</html>
