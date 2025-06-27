@@ -1,0 +1,17 @@
+Materiais complementares - Design Responsivo
+
+- https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+- https://www.w3schools.com/css/css3_flexbox.asp
+- https://origamid.com/projetos/flexbox-guia-completo/
+- https://www.youtube.com/watch?v=fcTJZxUdkJU&list=PLWXw8Gu52TRJh4j56i3Oii0_Jz-Xftk_W
+- https://flexboxfroggy.com
+
+
+Frameworks CSS
+
+- Bootstrap: https://getbootstrap.com
+- Tailwind: https://tailwindcss.com
+- Materialize: https://materializecss.com
+- UIkit: https://getuikit.com
+- OnsenUI: https://onsen.io
+- Semantic UI: https://semantic-ui.com

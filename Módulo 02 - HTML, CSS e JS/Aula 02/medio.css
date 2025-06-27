@@ -1,0 +1,43 @@
+/* Atualização global */
+*{
+    margin: 0;
+    padding: 0;
+    font: 14px sans-serif;
+}
+
+header{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+ul{
+    color: white;
+    display: flex;
+    list-style: none;
+}
+
+li{
+    border-bottom: 5px solid black;
+    padding-right: 10px;
+    padding-top: 24px;
+    padding-bottom: 18px;
+    padding-left: 10px;
+}
+
+li:hover{
+    border-bottom-color: rgb(7, 192, 7);
+    cursor: pointer;
+}
+
+form{
+    display: none;
+}
