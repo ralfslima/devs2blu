@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>09 - Vetor</title>
+
+    <script>
+
+        // Vetor de cores
+        let cores = ['Azul', 'Amarelo', 'Verde', 'Rosa', 'Vermelho', 'Roxo'];
+
+        // Exibir todas as cores
+        //document.write(cores);
+
+        // Exibindo a primeira cor
+        //document.write(cores[0]);
+
+        // Adicionar uma nova cor
+        //cores.push('Cinza');
+
+        // Remover o último elemento
+        //cores.pop();
+
+        // Remover o primeiro elemento
+        //cores.shift()
+
+        // Remover elemento em uma posição específica
+        //cores.splice(2);
+        cores.splice(2, 1);
+
+        // Exibir cada cor
+        for(let indice = 0; indice < cores.length; indice++){
+            // alert(cores[indice]);
+            alert(cores.at(indice));
+        }
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

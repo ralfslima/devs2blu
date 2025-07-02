@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10 - Função</title>
+
+    <script>
+
+        // Função para exibir uma mensagem
+        function mensagem(){
+            alert('Olá!');
+        }
+
+        // Arrow Function para exibir uma mensagem
+        const mensagem2 = () => {
+            alert('Hello!')
+        }
+
+        // Função para descrever a cidade selecionada
+        const descricaoCidade = (numero) => {
+
+             // Escolha
+            switch(parseInt(numero)){
+                case 1:
+                alert('Cidade onde ocorre a Oktoberfest!');
+                break;
+
+                case 2:
+                alert('Maior cidade do estado');
+                break;
+
+                case 3:
+                alert('Capital do estado');
+                break;
+
+                default:
+                alert('Selecione uma cidade');
+            }
+        }
+
+    </script>
+</head>
+<body>
+    
+    <button onclick="mensagem()">Clique aqui</button>
+    <button onclick="mensagem2()">Clique aqui</button>
+
+    <select onchange="descricaoCidade(this.value)">
+        <option value="0">Escolha uma cidade</option>
+        <option value="1">Blumenau</option>
+        <option value="2">Joinville</option>
+        <option value="3">Florianópolis</option>
+    </select>
+
+</body>
+</html>

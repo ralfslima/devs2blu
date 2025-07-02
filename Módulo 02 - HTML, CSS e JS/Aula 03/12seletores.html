@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>12 - Seletores</title>
+
+    <script>
+        
+        // Após carregar a estrutura HTML
+        window.onload = function(){
+            // Capturando o primeiro parágrafo
+            let primeiroParagrafo = document.getElementsByTagName('p')[0];
+
+            // Alterar o texto do parágrafo
+            primeiroParagrafo.innerText = 'Modificando o parágrafo!';
+        }
+
+    </script>
+
+</head>
+<body>
+    <p>Parágrafo 1</p>
+    <p>Parágrafo 2</p>
+</body>
+</html>

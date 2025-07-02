@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>13 - Seletores</title>
+</head>
+<body>
+    
+    <p class="texto">A</p>
+    <p class="texto">B</p>
+
+    <p id="texto">C</p>
+
+    <script>
+
+        // Modificar elementos via classe
+        document.getElementsByClassName('texto')[0].innerText = 'Modificar texto';
+        document.getElementsByClassName('texto')[1].innerText = 'Segundo parágrafo';
+
+        // Modificar elementos via id
+        let texto = document.getElementById('texto');
+        texto.innerText = 'Modificar texto via ID';
+        texto.style.color = 'red';
+        texto.style.fontSize = '30px';
+
+    </script>
+</body>
+</html>
