@@ -31,7 +31,7 @@ Dê dicas para o usuário, dependendo da diferença entre o valor informado e o 
 - Entre 11 e 20: Longe!
 - Acima de 20: Muito longe!
 
-Quando acetar o número gerado, informe quantas tentativas foram realizadas.
+Quando acertar o número gerado, informe quantas tentativas foram realizadas.
 
 **Dica para implementar o Math.random(): https://www.w3schools.com/js/js_random.asp**
 
