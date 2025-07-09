@@ -1,0 +1,6 @@
+1º O que é o Node?
+R: Ambiente ao lado do servidor para criar projetos em JavaScript.
+
+2º Gerenciador de pacotes (NPM)
+R: O gerenciador de pacotes ou dependências, é responsável por gerenciar
+módulos de terceiros. Existe um concorrente chamado YARN.

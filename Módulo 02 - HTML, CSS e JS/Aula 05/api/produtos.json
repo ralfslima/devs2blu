@@ -1,0 +1,16 @@
+{
+  "produtos": [
+    {
+      "id": "3a78",
+      "nome": "TV",
+      "marca": "Samsung",
+      "valor": 4300
+    },
+    {
+      "id": "d4b9",
+      "nome": "Notebook Inspiron 4563",
+      "marca": "Dell",
+      "valor": 6700
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD - PRODUTOS</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <!-- Anexar folha de estilos -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <!-- Formulário -->
+    <form>
+        <input type="text" class="form-control" placeholder="Id"    id="id" readonly="readonly">
+        <input type="text" class="form-control" placeholder="Nome"  id="nome">
+        <input type="text" class="form-control" placeholder="Marca" id="marca">
+        <input type="text" class="form-control" placeholder="Valor" id="valor">
+
+        <input type="button" value="Cadastrar" class="btn btn-primary" id="btnCadastrar">
+        <input type="button" value="Alterar"   class="btn btn-primary" id="btnAlterar">
+        <input type="button" value="Remover"   class="btn btn-primary" id="btnRemover">
+        <input type="button" value="Cancelar"  class="btn btn-primary" id="btnCancelar">
+    </form>
+
+    <!-- Tabela -->
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nome</th>
+                <th>Marca</th>
+                <th>Valor</th>
+                <th>Selecionar</th>
+            </tr>
+        </thead>
+
+        <tbody id="tabela"></tbody>
+    </table>
+    
+    <!-- SCRIPT -->
+    <script src="script.js"></script>
+</body>
+</html>

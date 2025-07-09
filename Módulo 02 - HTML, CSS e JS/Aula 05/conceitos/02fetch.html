@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FETCH</title>
+</head>
+<body>
+    
+    <!-- SCRIPT -->
+    <script>
+        /*
+            API (Application Programming Interface)
+            Rotas: Caminho, exemplo: proway.com.br/alunos ou proway.com.br/intrutores
+            Requisições: Ações.
+            Tipos de requisições:
+                POST: Cadastro;
+                GET: Seleção;
+                PUT: Alterar dados (geral);
+                PATCH: Alterar dados (específicos);
+                DELETE: Remover.
+        */
+
+
+        fetch('https://jsonplaceholder.typicode.com/posts')
+        .then(retorno => retorno.json())
+        .then(postagens => console.table(postagens));
+
+
+    </script>
+</body>
+</html>
