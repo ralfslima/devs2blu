@@ -1,0 +1,5 @@
+1º Crie a API via json-server.
+
+2º Abra um novo VSCode e estruture o HTML/CSS.
+
+3º Crie cada função JS independente, teste cada etapa. Em caso de erros, verifique o console do navegador.

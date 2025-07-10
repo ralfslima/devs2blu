@@ -1,0 +1,28 @@
+Desenvolva um projeto CRUD para gerenciar endereços. As informações que serão manipuladas são:
+- Id (gerado automaticamente)
+- Nome
+- CEP
+- Estado
+- Cidade
+- Bairro
+- Logradouro
+
+Considerações:
+1. Back-end:
+- Gere uma API utilizando o json-server para armazenar os dados.
+
+2. API de Endereço:
+- Utilize a API pública do ViaCEP (https://viacep.com.br) para buscar o estado, cidade, bairro e logradouro com base no CEP fornecido.
+
+3. Tecnologias no Front-end:
+- Utilize HTML, CSS e JavaScript (Vanilla JS - sem frameworks ou bibliotecas como React, Angular, Vue, ou jQuery).
+- Para o design do front-end, você pode usar frameworks como Bootstrap ou Tailwind para facilitar o estilo e a responsividade.
+
+4. Funcionalidades do Front-end:
+- Cadastro: O usuário poderá inserir dados (nome e CEP). O sistema retornar campos de Estado, Cidade, Bairro e Logradouro.
+- Listagem/Seleção: A listagem de registros será exibida, permitindo a seleção de um item para edição ou remoção.
+- Alteração: O usuário poderá alterar os dados de um item selecionado.
+- Remoção: O usuário poderá remover um item da lista.
+
+5. Validação:
+- Ao cadastrar ou alterar dados, verifique se todos os campos obrigatórios estão preenchidos.
