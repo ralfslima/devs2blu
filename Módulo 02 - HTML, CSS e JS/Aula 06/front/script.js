@@ -1,4 +1,4 @@
-// Selecionar todos os elementos HTML que serão reutilizados
+// Seleciona todos os elementos HTML que serão utilizados
 const formularioEndereco = document.getElementById('formularioEndereco');
 const listaEnderecosUL = document.getElementById('listaEnderecosUL');
 const cepInput = document.getElementById('cep');
