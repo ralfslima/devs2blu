@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRUD de Endereços</title>
+  
+  <!-- Anexar folha de estilos -->
+  <link rel="stylesheet" href="estilos.css">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+<body>
+
+  <!-- DICA: Essa estrutura de formulário você encontra no site do Bootstrap no link Examples -->
+
+  <!-- A classe mt-5 do Bootstrap faz com que haja uma margem superior. O valor vai de 0 até 5, quanto maior o valor, maior a margem. -->
+  <div class="container mt-5">
+    <!-- Título do formulário -->
+    <h1>CRUD</h1>
+    
+    <!-- Formulario -->
+    <form id="formularioEndereco">
+      
+      <!-- A classe mb serve para trabalhar com a margem inferior. Ao invés de definir no estilos.css, utilizei a classe do Bootstrap -->
+      <div class="mb-3">
+        <label for="nome" class="form-label">Nome</label>
+        <input type="text" id="nome" class="form-control" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="cep" class="form-label">CEP</label>
+        <input type="text" id="cep" class="form-control" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="logradouro" class="form-label">Logradouro</label>
+        <input type="text" id="logradouro" class="form-control" readonly>
+      </div>
+
+      <div class="mb-3">
+        <label for="bairro" class="form-label">Bairro</label>
+        <input type="text" id="bairro" class="form-control" readonly>
+      </div>
+
+      <div class="mb-3">
+        <label for="cidade" class="form-label">Cidade</label>
+        <input type="text" id="cidade" class="form-control" readonly>
+      </div>
+
+      <div class="mb-3">
+        <label for="estado" class="form-label">Estado</label>
+        <input type="text" id="estado" class="form-control" readonly>
+      </div>
+
+      <button type="submit" id="btn" class="btn btn-primary">Cadastrar Endereço</button>
+    </form>
+
+    <!-- Listagem de endereços -->
+    <div id="listaEnderecos" class="mt-5">
+      <h1>Listagem</h1>
+      <ul class="list-group" id="listaEnderecosUL"></ul>
+    </div>
+  </div>
+
+  <!-- Anexar arquivo JS -->
+  <script src="script.js"></script>
+</body>
+</html>

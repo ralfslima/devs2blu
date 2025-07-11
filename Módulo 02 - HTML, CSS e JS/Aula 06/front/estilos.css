@@ -1,0 +1,15 @@
+/* Definir uma largura máxima para os elementos dentro do container */
+.container {
+  max-width: 800px;
+}
+
+/* Margens aplicadas na listagem de dados */
+#listaEnderecosUL {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+/* Centralizar textos no H1 */
+h1{
+  text-align: center;
+}
