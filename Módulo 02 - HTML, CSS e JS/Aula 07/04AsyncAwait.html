@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async - Await</title>
+</head>
+<body>
+    
+    <script>
+        //async function requisicao(){}
+        const requisicao = async () => {
+            //Try-Catch-Finally
+            try{
+                // Acessar API
+                const requisicao = await fetch('https://jsonplaceholder.typicode.com/users/1')
+
+                // Converter requisição para um objeto JSON
+                const pessoa = await requisicao.json();
+
+                // Exibir os dados do objeto pessoa
+                console.log(pessoa);
+            }catch(erro){
+                console.log('Falha ao executar a requisição ' + erro.message);
+            }finally{
+                console.log('Requisição finalizada');
+            }
+        }
+
+        // Executar função
+        requisicao();
+
+    </script>
+</body>
+</html>

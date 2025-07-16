@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storage</title>
+</head>
+<body>
+    
+    <script>
+        /*
+            SessionStorage -> Dados ficam disponíveis até que o navegador seja finalizado.
+            LocalStorage   -> Dados ficam disponíveis até que o navegador seja "limpo".
+        */ 
+
+        // Criar nome
+        localStorage.setItem('nome', 'Ralf');
+
+        // Exibir o nome
+        document.write(localStorage.getItem('nome'));
+
+        // Remover o nome
+        localStorage.removeItem('nome');
+
+        // Remover todas as chaves
+        localStorage.clear();
+    </script>
+</body>
+</html>
