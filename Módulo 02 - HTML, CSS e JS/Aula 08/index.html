@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Requisição - API</title>
+</head>
+<body>
+    <!-- SCRIPT -->
+    <script>
+        fetch('http://localhost:3000')
+        .then(requisicao => requisicao.json())
+        .then(vetor => console.table(vetor));
+    </script>
+</body>
+</html>
