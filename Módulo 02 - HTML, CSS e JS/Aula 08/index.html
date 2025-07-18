@@ -1,16 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Requisição - API</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gerenciador de Pessoas</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <!-- SCRIPT -->
-    <script>
-        fetch('http://localhost:3000')
-        .then(requisicao => requisicao.json())
-        .then(vetor => console.table(vetor));
-    </script>
+<body class="bg-gray-100 p-6">
+  <div class="max-w-3xl mx-auto bg-white rounded shadow p-6">
+    <h1 class="text-2xl font-bold mb-4 text-center">Gerenciador de Pessoas</h1>
+
+    <!-- Formulário -->
+    <form id="formPessoa" class="flex flex-col gap-4 mb-6">
+      <input type="hidden" id="idPessoa" />
+      <input id="nome" type="text" placeholder="Nome" class="border rounded p-2" required />
+      <input id="idade" type="number" placeholder="Idade" class="border rounded p-2" required />
+      <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 text-sm rounded w-32 mx-auto">Salvar</button>
+    </form>
+
+    <!-- Tabela de Pessoas -->
+    <table class="w-full table-auto border-collapse">
+      <thead>
+        <tr class="bg-gray-200">
+          <th class="border px-4 py-2">ID</th>
+          <th class="border px-4 py-2">Nome</th>
+          <th class="border px-4 py-2">Idade</th>
+          <th class="border px-4 py-2">Ações</th>
+        </tr>
+      </thead>
+      <tbody id="tabelaPessoas"></tbody>
+    </table>
+  </div>
+
+  <!-- Importar script JS -->
+  <script src="script.js"></script>
 </body>
 </html>
