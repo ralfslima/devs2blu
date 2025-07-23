@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JWT</title>
+</head>
+<body>
+    <!-- Formulário -->
+    <form onsubmit="gerarToken(event)">
+        <input type="text" id="nome" placeholder="Informe seu nome">
+        <input type="submit" value="Gerar token">
+    </form>
+    
+    <!-- Exibir o token gerado -->
+    <p id="exibirToken"></p>
+    
+    <!-- Botão para validar o token -->
+    <button onclick="validarToken()">Validar Token</button>
+
+    <!-- Exibir a situação do token -->
+    <p id="situacaoToken"></p>
+
+  <!-- Script -->
+  <script>
+    // Armazenar o token gerado
+    let token = '';
+
+    // Função para gerar o token
+    const gerarToken = async (event) => {
+        // Impede a atualização da página
+        event.preventDefault();
+
+        // Extrair o valor do input nome
+        const nome = document.getElementById('nome').value;
+
+        // Requisição
+        const requisicao = await fetch('http://localhost:8080', {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify({ nome })
+        });
+
+        // Converter requisição para JSON
+        const resposta = await requisicao.json();
+
+        // Enviar o token para a variável
+        token = resposta;
+
+        // Exibir o token no elemento <p>
+        document.getElementById('exibirToken').innerHTML = 'Token: ' + token;
+    }
+
+    // Função para validar o token
+    const validarToken = async () => {
+
+        // Caso o token não tenha sido gerado
+        if (!token) {
+            alert('Gere o token primeiro!');
+        }
+
+        // Requisição
+        const requisicao = await fetch('http://localhost:8080', {
+            method: 'GET',
+            headers: {'Authorization': `Bearer ${token}`}
+        });
+
+        // Converter requisição para JSON
+        const resposta = await requisicao.json();
+        
+        // Exibir a situação do token
+        document.getElementById('situacaoToken').innerText = resposta.mensagem;
+    }
+  </script>
+</body>
+</html>

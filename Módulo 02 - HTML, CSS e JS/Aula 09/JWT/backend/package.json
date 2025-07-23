@@ -1,0 +1,22 @@
+{
+  "name": "projeto-jwt",
+  "version": "1.0.0",
+  "description": "Projeto para criar e validar tokens JWT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node",
+    "Express",
+    "JWT"
+  ],
+  "author": "Ralf Lima",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.1.10"
+  }
+}

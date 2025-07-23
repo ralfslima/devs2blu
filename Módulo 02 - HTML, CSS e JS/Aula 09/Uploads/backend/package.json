@@ -1,0 +1,22 @@
+{
+  "name": "upload-de-arquivos",
+  "version": "1.0.0",
+  "description": "Criando um upload de arquivos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "upload",
+    "express"
+  ],
+  "author": "Ralf Lima",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "express-fileupload": "^1.5.2",
+    "nodemon": "^3.1.10"
+  }
+}
