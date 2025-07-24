@@ -1,0 +1,41 @@
+Desenvolva uma loja virtual.
+
+Cada etapa do projeto terá um peso, conseguindo implementar todas as etapas, a nota será 10!
+
+Etapa 1 (Vale 1 ponto): Crie um vetor contendo pelo menos 30 produtos com as características:
+- Código ou Id;
+- Nome;
+- Imagem; * (opcional este campo/atributo, pois você pode usar o id ou o nome para puxar a imagem);
+- Quantidade em estoque;
+- Categoria;
+- Valor.
+
+Etapa 2 (Vale 1 ponto): Exiba os produtos na página inicial em formato de cards.
+
+Etapa 3 (Vale 1 ponto): Crie um topo, contendo:
+- Logo;
+- Menu, links contendo categorias dos produtos (3 categorias) e um link para listar todos os produtos;
+- Formulário de pesquisa.
+
+Etapa 4: (Vale 2 pontos): Implemente um carrinho de compras. O cliente poderá adicionar
+quantos produtos quiser, desde que respeite a quantidade em estoque.
+
+Etapa 5 (Vale 1 ponto): Implemente a função para finalizar a compra. Ao clicar no botão finalizar compra,
+o carrinho é limpo e uma nova compra poderá ser realizada. Não resete a quantidade em estoque dos produtos.
+
+Etapa 6 (Vale 1 ponto): Produtos que não tenham mais estoque, não poderão ter o botão (Compra ou Adicionar ao carrinho)
+habilitado.
+
+Etapa 7 (Vale 1 ponto): Criar as páginas para exibir os produtos pela sua categoria específica.
+
+Etapa 8 (Vale 2 ponto): Implementar a pesquisa de produtos, através de um termo.
+
+-----------------------------------
+
+Tecnologias liberadas: HTML, CSS e JavaScript (Puro/Vanilla);
+Proibido utilizar: Angular, React, Vue, jQuery, entre outras tecnologias.
+Para a estruturação de páginas, está liberado qualquer framework/biblioteca, exemplo: Bootstrap e Tailwind.
+
+-----------------------------------
+
+Entregar o projeto até o dia 31/07 às 22:15, envie o link do repositório para o e-mail: contato@ralflima.com

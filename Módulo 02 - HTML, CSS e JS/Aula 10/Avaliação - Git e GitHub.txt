@@ -1,0 +1,8 @@
+Crie um Readme para o seu projeto de loja virtual.
+
+No Readme informe:
+- Uma breve descrição do projeto;
+- Funcionalidades;
+- Tecnologias utilizadas;
+- Quais passos devem ser feitos para que seja executado por quem baixá-lo;
+- Imagens das telas.
