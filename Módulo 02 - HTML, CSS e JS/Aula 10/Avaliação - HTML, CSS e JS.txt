@@ -1,11 +1,9 @@
-Desenvolva uma loja virtual.
-
-Cada etapa do projeto terá um peso, conseguindo implementar todas as etapas, a nota será 10!
+Desenvolva uma loja virtual. Cada etapa do projeto terá um peso, conseguindo implementar todas as etapas, a nota será 10!
 
 Etapa 1 (Vale 1 ponto): Crie um vetor contendo pelo menos 30 produtos com as características:
 - Código ou Id;
 - Nome;
-- Imagem; * (opcional este campo/atributo, pois você pode usar o id ou o nome para puxar a imagem);
+- Imagem *(opcional este campo/atributo, pois você pode usar o id ou o nome para puxar a imagem);
 - Quantidade em estoque;
 - Categoria;
 - Valor.
@@ -23,18 +21,21 @@ quantos produtos quiser, desde que respeite a quantidade em estoque.
 Etapa 5 (Vale 1 ponto): Implemente a função para finalizar a compra. Ao clicar no botão finalizar compra,
 o carrinho é limpo e uma nova compra poderá ser realizada. Não resete a quantidade em estoque dos produtos.
 
-Etapa 6 (Vale 1 ponto): Produtos que não tenham mais estoque, não poderão ter o botão (Compra ou Adicionar ao carrinho)
-habilitado.
+Etapa 6 (Vale 1 ponto): Produtos que não tenham mais estoque, não poderão ser adicionados no carrinho.
 
 Etapa 7 (Vale 1 ponto): Criar as páginas para exibir os produtos pela sua categoria específica.
 
-Etapa 8 (Vale 2 ponto): Implementar a pesquisa de produtos, através de um termo.
+Etapa 8 (Vale 2 ponto): Implementar a pesquisa de produtos, através de um termo. O produto deverá conter uma determinada palavra ou letra, exemplo:
+- Se digitar: camisa, deverão ser listados todos os produtos que contenham o termo camisa.
+- Se digitar: A, deverão ser listados todos os produtos que contenham a letra A.
 
 -----------------------------------
 
 Tecnologias liberadas: HTML, CSS e JavaScript (Puro/Vanilla);
-Proibido utilizar: Angular, React, Vue, jQuery, entre outras tecnologias.
-Para a estruturação de páginas, está liberado qualquer framework/biblioteca, exemplo: Bootstrap e Tailwind.
+Proibido utilizar: Angular, React, Vue, jQuery, entre outras tecnologias;
+Para a estruturação de páginas, está liberado qualquer framework/biblioteca, exemplo: Bootstrap e Tailwind;
+Liberado o uso de Node para criar uma API para consumir os produtos;
+Proibido utilizar qualquer banco de dados, como: H2, MySQL, PostgreSQL, Oracle, SQLite, etc...
 
 -----------------------------------
 
