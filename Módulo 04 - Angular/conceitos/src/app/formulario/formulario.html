@@ -1,0 +1,13 @@
+<input type="text" name="texto" [(ngModel)]="texto">
+<h1>{{texto}}</h1>
+
+<hr>
+
+<form>
+    <input #campoNome="ngModel"   required minlength="3" type="text" name="nome"   [(ngModel)]="pessoa.nome" >
+    <input #campoCidade="ngModel" required type="text" name="cidade" [(ngModel)]="pessoa.cidade">
+    <input type="submit" [disabled]="campoNome.invalid || campoCidade.invalid">
+</form>
+
+<p>Nome: {{pessoa.nome}}</p>
+<p>Cidade: {{pessoa.cidade}}</p>
