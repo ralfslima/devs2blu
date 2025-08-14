@@ -1,0 +1,35 @@
+<!-- 
+O QUE É?
+R: É uma técnica para deixar o arquivo HTML dinâmico.
+Ele trabalha com o DOM, podendo: criar, remover, exibir e ocultar elementos.
+
+A PARTIR DE QUAL VERSÃO DO ANGULAR ESTÁ DISPONÍVEL?
+R: A partir da versão 17.
+
+QUAIS SÃO OS CONTROLES DE FLUXO?
+R: @if, @switch e @for.
+-->
+
+<h1>CONTROLE DE FLUXO - @IF</h1>
+@if (media >= 7) {
+    <p>Aprovado!</p>
+}@else if (media >= 5) {
+    <p>Em recuperação!</p>
+}@else {
+    <p>Reprovado!</p>
+}
+<hr>
+
+<h1>CONTROLE DE FLUXO - @SWITCH</h1>
+@switch (linguagem) {
+    @case ('Java') {<p>Linguagem de programação mantida pela Oracle.</p>}
+    @case ('C#')   {<p>Linguagem de programação mantida pela Microsoft.</p>}
+    @default       {<p>Linguagem desconhecida.</p>}
+}
+<hr>
+
+<h1>CONTROLE DE FLUXO - @FOR</h1>
+@for (nome of nomes; track $index) {
+    <p>{{$index}} - {{nome}}</p>
+}@empty {<p>Não há nomes para exibir.</p>}
+

@@ -1,0 +1,68 @@
+Possíveis dúvidas:
+1. Posso usar coisas que não vimos, exemplo: requisições com APIs, formulários reativos, pipes, etc..?
+R: Sim, fique à vontade :)
+
+2. Vale nota?
+R: Não, são apenas exercícios para treinar os conceitos abordados até o momento.
+
+3. Posso implementar o Bootstrap, Materialize, Tailwind, etc..?
+R: Sim, fique à vontade. Na próxima semana iremos aprender a trabalhar com essas tecnologias, mas caso queira utilizar, está tranquilo.
+
+4. Preciso enviar para o e-mail contato@ralflima.com quando estiver pronto?
+R: Não precisa, mas se quiser que eu dê uma olhada, pode mandar.
+
+5. Algumas questões vi que seria legal ter uma API, posso criar ou usar o json-server?
+R: Sim, sem problemas.
+
+6. Se eu quiser usar algo que não foi ensinado, posso pedir auxílio para o professor?
+R: Não! Irei auxiliar apenas com base no que foi apresentado até o momento:
+   - Data-bidings (interpolation, property, event e two-way);
+   - Diretivas (ngClass, ngStyle e ngModel);
+   - FormsModule;
+   - Conceitos gerais, como: criar projeto, implementar componentes e executar o servidor. 
+
+----------------------------------------------------------------------------------------------
+
+EXERCÍCIOS - ANGULAR
+
+1. Crie um sistema para retornar a média do aluno e a situação.
+   a) O usuário irá informar três notas (entre 0 e 10);
+   b) Caso o aluno esteja aprovado, deixe o texto verde, caso contrário, deixe o texto em vermelho.
+   c) Haverá um contador para exibir a quantidade total de alunos com a situação: aprovado e reprovado.
+
+
+2) Crie um conversor de moedas, contendo as seguintes opções: Bitcoin, Dólar, Euro, Ethereum, Libra e Iene.
+
+
+3) Desenvolva um algoritmo para calcular o IMC (Índice de Massa Corporal) e retornar a situação da pessoa. Peça peso e altura, em seguida retorne o IMC e a situação:
+- Menor que 18,5 Abaixo do peso
+- 18,5 - 24,9 Peso normal
+- 25,0 - 29,9 Sobrepeso
+- 30,0 - 34,9 Obesidade grau 1
+- 35,0 - 39,9 Obesidade grau 2
+- 40,0 ou mais Obesidade grau 3
+
+
+4. Gere um número entre 1 e 100 e armazene em uma variável. O usuário irá informar um número, enquanto o usuário não acertar o número gerado, ele deverá informar um valor. 
+
+Dê dicas para o usuário, dependendo da diferença entre o valor informado e o valor gerado:
+Até 5: Quase!
+Entre 6 e 10: Perto!
+Entre 11 e 20: Longe!
+Acima de 20: Muito longe!
+
+Dica: Você pode usar a função Math.random() para gerar o valor aleatório.
+
+
+5. Crie um sistema com as seguintes funcionalidades:
+   a) O usuário irá informar: nome e idade;
+   b) Ao cadastrar o nome e a idade, armazene em um vetor e exiba em uma tabela ou lista.
+   c) Crie a opção remover, onde os dados serão removidos do vetor e da tabela.
+   d) Exiba dois contadores, onde um irá exibir a quantidade de pessoas com 18 anos ou mais e outro com menores de 18 anos.
+
+
+6. Crie um sistema para filtragem, abaixo acompanhe as especificações:
+   a) Escolha um tema de sua preferência, exemplo: carros.
+   b) Exiba 20 carros (pode ser em cards, tabelas ou listas).
+   c) Implemente opções de filtragem, como: fabricante, modelo, cor.
+   d) Assim que o usuário informar algum filtro, atualize a lista de carros.
