@@ -1,0 +1,50 @@
+<!-- 
+    RouterOutlet -> Visualização dos componentes/páginas
+    RouterLink   -> Link para cada path/componente
+-->
+
+<!-- <a routerLink="/pagina1">Página 1</a>
+|
+<a routerLink="/pagina2">Página 2</a>
+|
+<a routerLink="/pagina3">Página 3</a> -->
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Roteamento</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/pagina1">Página 1</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/pagina2">Página 2</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/pagina3">Página 3</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- 
+Teste para verificar se o Angular Material foi devidamente instalado
+<div class="example-button-row">
+    <button matButton="elevated">Basic</button>
+    <button matButton="elevated" disabled>Disabled</button>
+    <a matButton="elevated" href="https://www.google.com/" target="_blank">Link</a>
+</div>
+-->
+
+<!-- 
+Teste para verificar o Tailwind
+<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+  Botão em Tailwind
+</button> 
+-->
+
+<router-outlet></router-outlet>

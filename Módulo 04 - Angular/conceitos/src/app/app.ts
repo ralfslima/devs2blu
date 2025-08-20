@@ -1,9 +1,9 @@
 import { Component, signal } from '@angular/core';
-import { Diretivas } from "./diretivas/diretivas";
+import { Roteamento } from "./roteamento/roteamento";
 
 @Component({
   selector: 'app-root',
-  imports: [Diretivas],
+  imports: [Roteamento],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })

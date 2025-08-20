@@ -1,0 +1,22 @@
+<p>{{'yuri' | uppercase}}</p>
+
+<ul>
+    @for (nome of nomes; track $index) {
+        <li>{{nome | saudacao}}</li>
+    }
+</ul>
+
+
+<!--
+1. currency: Formata um valor numérico como uma moeda.
+2. date: Formata uma data de acordo com o formato especificado.
+3. decimal: Formata um número com precisão decimal.
+4. json: Converte um objeto JavaScript em uma string JSON.
+5. lowercase: Converte o texto para minúsculas.
+6. uppercase: Converte o texto para maiúsculas.
+7. percent: Formata um número como uma porcentagem.
+8. slice: Extrai uma parte de um array ou string.
+9. i18nPlural: Exibe o plural de um valor baseado em regras de pluralização.
+10. i18nSelect: Seleciona uma opção de string com base no valor de um parâmetro.
+11. async: Assina observáveis e exibe os valores emitidos.
+-->
