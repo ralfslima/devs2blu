@@ -1,0 +1,46 @@
+EXERCÍCIOS - ANGULAR 2
+
+1. Este exercício terá foco na criação de rotas e uso de alguma tecnologia para customizar 
+suas páginas (Bootstrap, Material, Tailwind, etc…).
+
+Crie um site contendo três páginas. 
+
+Também haverá uma página extra, para retornar uma mensagem de “página não encontrada” 
+se o usuário acessar alguma rota inexistente.
+
+
+
+----------------------------------------------------------------------------------------------
+
+
+2. Crie um sistema que peça o nome do aluno e duas notas. 
+
+Liste o nome, as duas notas e a média do aluno. 
+
+A média deverá ser gerada via Pipe.
+
+
+----------------------------------------------------------------------------------------------
+
+
+3.  Crie um projeto “To-do List“ (lista de tarefas), esse projeto terá as seguintes características:
+	a) A página inicial o usuário poderá efetuar um login ou criar uma conta (nome, e-mail e senha);	
+    b) Ao realizar o login ou criar a conta, redirecione para a página de tarefas;	
+    c) Na página de tarefas, será possível: criar novas tarefas, acompanhar tarefas em andamento, alterar e remover tarefas.	
+    d) Todas as tarefas deverão ter data e hora para finalizar;
+	e) Vários usuários poderão utilizar o sistema.
+
+
+
+----------------------------------------------------------------------------------------------
+
+
+Possíveis dúvidas:
+1. Posso usar coisas que não vimos?
+R: Sim, fique à vontade :)
+
+2. Vale nota?
+R: Não, são apenas exercícios para treinar os conceitos abordados até o momento.
+
+3. Preciso enviar para o e-mail contato@ralflima.com quando estiver pronto?
+R: Não precisa, mas se quiser que eu dê uma olhada, pode mandar.
