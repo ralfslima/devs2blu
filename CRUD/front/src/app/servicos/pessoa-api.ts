@@ -9,7 +9,7 @@ import { Pessoa } from '../modelo/Pessoa';
 export class PessoaApi {
 
   // URL da API
-  private url:string = 'http://localhost:3000/pessoas/';
+  private url:string = 'https://devs2blu.onrender.com/pessoas/';
 
   // Construtor
   constructor(private http:HttpClient){}
