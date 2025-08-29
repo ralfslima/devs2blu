@@ -16,8 +16,8 @@
     @if (btnCadastrar) {
         <button matButton="elevated" (click)="cadastrar()" class="botao">Cadastrar</button>
     }@else {
-        <button matButton="elevated" class="botao">Alterar</button>    
-        <button matButton="elevated" class="botao">Remover</button>
+        <button matButton="elevated" (click)="alterar()" class="botao">Alterar</button>    
+        <button matButton="elevated" (click)="remover()" class="botao">Remover</button>
         <button matButton="elevated" (click)="cancelar()" class="botao">Cancelar</button>
     }
 </form>

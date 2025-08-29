@@ -86,4 +86,43 @@ export class Crud {
     this.btnCadastrar = true;
   }
 
+  // Método para alterar dados
+  alterar():void{
+    this.servico.alterar(this.formularioPessoa.value)
+    .subscribe(pessoa => {
+
+      // Obter o índice da pessoa alterada no vetor
+      const indicePessoaAlterada = this.vetor.findIndex(obj => obj.id === pessoa.id);
+
+      // Atualizar valor do vetor
+      this.vetor[indicePessoaAlterada] = pessoa;
+
+      // Forçar a atualização do vetor (para exibir corretamente na tabela)
+      this.vetor = [...this.vetor];
+
+      // Visibilidade dos botões e limpeza dos campos
+      this.cancelar();
+    });
+  }
+
+  // Método para remover pessoas
+  remover():void{
+    this.servico.remover(this.formularioPessoa.value.id)
+    .subscribe(pessoa => {
+
+      // Obter o índice da pessoa removida no vetor
+      const indicePessoaRemovida = this.vetor.findIndex(obj => obj.id === pessoa.id);
+
+      // Efetuar a remoção no vetor
+      this.vetor.splice(indicePessoaRemovida, 1);
+
+      // Forçar a atualização do vetor (para exibir corretamente na tabela)
+      this.vetor = [...this.vetor];
+
+      // Visibilidade dos botões e limpeza dos campos
+      this.cancelar();
+    });
+
+  }
+
 }

@@ -30,6 +30,16 @@ export class PessoaApi {
     return this.http.get<Pessoa>(`${this.url}${id}`);
   }
 
+  // Alterar pessoas
+  alterar(pessoa:Pessoa):Observable<Pessoa>{
+    return this.http.put<Pessoa>(this.url+pessoa.id, JSON.stringify(pessoa));
+  }
+
+  // Remover pessoas
+  remover(id:string):Observable<Pessoa>{
+    return this.http.delete<Pessoa>(this.url+id);
+  }
+
 }
 
 
