@@ -1,0 +1,21 @@
+form{
+    width: 50%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+input[type="text"]{
+    width: 97%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 1.5%;
+}
+
+input[type="button"]{
+    background: linear-gradient(to bottom,  #9dd53a 0%,#a1d54f 50%,#80c217 51%,#7cbc0a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    border: 1px solid #62960f;
+    border-radius: 8px;
+    padding: 1.5% 4%;
+    color: #fff;
+}

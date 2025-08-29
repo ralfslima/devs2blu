@@ -1,0 +1,13 @@
+Componentização:
+    1. Componentes específicos para cada situação.
+    2. Reutilização de componentes.
+    3. Código menor.
+
+Comandos utilizados para realizar a comunicação entre componentes:
+    - @Input()  -> Componente pai envia dados para o componente filho.
+    - @Output() -> Componente filho envia dados para o componente pai.
+
+Componentes utilizados:
+    - ng g c principal
+    - ng g c formulario-cadastro
+    - ng g c tabela-listagem

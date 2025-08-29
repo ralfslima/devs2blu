@@ -1,0 +1,61 @@
+EXERCÍCIOS - ANGULAR 3
+
+1. Vamos focar em trabalhar com APIs e rotas, crie um CRUD de usuários. Teremos os seguintes requisitos para implementar:
+
+	a) Os campos que deverão estar presentes são: Nome, E-mail, Data de Nascimento, Gênero, Renda Salarial, Grau de Escolaridade, CEP, Estado, Cidade, Bairro e Logradouro.
+	
+	b) Valide os campos.	
+	
+	c) Os registros deverão ser realizados via json-server.	
+	
+	d) Através do CEP, puxe os dados: Estado, Cidade, Bairro e Logradouro (Dica, você pode usar a API do ViaCEP).
+	
+	e) Crie uma estrutura de rotas, onde teremos uma rota para CRUD de pessoas e outra rota para exibir algumas métricas.
+	
+	f) Na rota de métricas, exiba:
+	- Quantidade total de pessoas cadastradas;
+	- Quantidade de pessoas do gênero: masculino e feminino;
+	- Quantidade de pessoas por estado;
+	- Quantidade de pessoas por faixa etária:
+		* Até 13 anos;
+		* Entre 14 e 17 anos;
+		* Entre 18 e 24 anos;
+		* Entre 25 e 34 anos;
+		* Entre 35 e 49 anos;
+		* 50+.
+	- Quantidade e percentual das pessoas com Renda Salarial:
+		* Até R$1.520,00.
+		* Entre 1.520,01 e R$2.999,99;
+		* Entre R$3.000,00 e R$4.999,99;
+		* Entre R$5.000,00 e R$7,999,99;
+		* Maior ou igual a R$8.000,00.
+	- Quantidade e percentual de pessoas com grau de escolaridade:
+		* Ensino Fundamental;
+		* Ensino Médio;
+		* Técnico;
+		* Superior;
+		* Especialização/MBA;
+		* Mestrado;
+		* Doutorado.		
+		OBS: Informe a situação (Em andamento, Concluído ou Desistente).
+
+
+2. Utilizando uma estrutura de Rotas e uma API, desenvolva um sistema de vendas que nem o Mercado Livre. As funcionalidades precisam contemplar:
+	a) Criação de conta;
+	
+	b) Login;
+
+	c) CRUD para gerenciar os produtos que estão sendo vendidos;
+
+	d) Criar as páginas contendo os produtos que estão sendo vendidos (para quem acessar o site e quiser comprar algo);
+
+Sugestões para deixar o projeto mais desafiador:
+
+	a) Integrar a alguma API de pagamentos como PayPal ou PagSeguro.
+	
+	b) Criar uma API falsa para poder atuar com pagamentos, onde você pode especificar os dados de cada cartão e limite.
+	
+	c) Integrar um sistema de mensagens.
+	
+	d) Criar um sistema de alertas (Quando algum determinado produto chegar a um valor específico, a pessoa que estiver ativa no sistema receberá um aviso).
+

@@ -1,9 +1,9 @@
 import { Component, signal } from '@angular/core';
-import { Roteamento } from "./roteamento/roteamento";
+import { Principal } from "./principal/principal";
 
 @Component({
   selector: 'app-root',
-  imports: [Roteamento],
+  imports: [Principal],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
