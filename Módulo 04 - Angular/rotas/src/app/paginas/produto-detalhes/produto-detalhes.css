@@ -1,0 +1,20 @@
+main{
+    margin-top: 30px;
+}
+
+h1{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+h2{
+    color: green;
+}
+
+p{
+    margin-top: 30px;
+    line-height: 26px;
+    text-indent: 20px;
+    text-align: justify;
+}

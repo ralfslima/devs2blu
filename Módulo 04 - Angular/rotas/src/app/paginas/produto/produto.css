@@ -1,0 +1,27 @@
+main{
+    margin-top: 30px;
+}
+
+.card{
+    margin-bottom: 20px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+
+img{
+    height: 320px;
+}
+
+h1, h2{
+    font-size: 20px;
+    margin: 20px;
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}

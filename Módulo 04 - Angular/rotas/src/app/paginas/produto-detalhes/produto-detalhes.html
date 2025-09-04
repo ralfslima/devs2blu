@@ -1,0 +1,13 @@
+<main class="container">
+    <div class="row">
+        <div class="col-lg-6">
+            <img [src]="imagem" class="img-fluid">
+        </div>
+
+        <div class="col-lg-6">
+            <h1>{{nome}}</h1>
+            <h2>{{valor | currency:'BRL':'symbol':'1.2-2':'pt-BR'}}</h2>
+            <p>{{descricao}}</p>
+        </div>
+    </div>
+</main>
