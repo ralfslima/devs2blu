@@ -26,6 +26,19 @@
         <li class="nav-item">
           <a class="nav-link" routerLink="/produto">Listar todos os produtos</a>
         </li>
+
+        @if(existeToken){
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/admin">Área Restrita</a>
+            </li>
+            <li class="nav-item">
+              <button class="nav-link" (click)="sair()">Sair</button>
+            </li>
+          }@else {
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/login">Login</a>
+            </li>
+          } 
       </ul>
     </div>
   </div>
