@@ -1,0 +1,26 @@
+ATIVIDADE ANGULAR
+
+[INFORMAÇÕES IMPORTANTES]
+1. Não é uma atividade avaliativa.
+
+2. Não há prazo de entrega.
+
+3. Fiquem à vontade para fazer o uso de APIs (fica mais legal).
+
+4. Podem customizar o projeto, implementando novas funcionalidades.
+
+5. A estrutura das páginas pode ser em HTML/CSS puro ou utilizar alguma tecnologia complementar, como: Bootstrap, Tailwind, PrimeNG, Bulma, Angular Material, etc…
+
+
+[DESAFIO]
+Vamos criar um blog, escolha o(s) assunto(s) de sua preferência.
+
+1. Página inicial: listar todas as postagens (da mais nova para a mais antiga);
+2. No menu, exiba todas as categorias/assuntos. Ao clicar, serão exibidas as postagens daquela categoria específica.
+3. Implemente uma pesquisa através do título da postagem.
+4. Crie uma rota para logar.
+5. Ao logar, o usuário poderá:
+	- Gerenciar as categorias/assuntos.
+	- Gerenciar postagens.
+	- Estatísticas, informando a quantidade de cliques que cada postagem teve. 
+	- Sair do sistema (logoff).
