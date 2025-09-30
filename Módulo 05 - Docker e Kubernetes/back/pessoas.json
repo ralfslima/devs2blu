@@ -1,0 +1,24 @@
+{
+  "pessoas": [
+    {
+      "id": "5f56",
+      "nome": "Alice",
+      "cidade": "Joinville"
+    },
+    {
+      "id": "b1d6",
+      "nome": "Larissa",
+      "cidade": "Curitiba"
+    },
+    {
+      "id": "2bcc",
+      "nome": "Yuri",
+      "cidade": "São José do Rio Preto"
+    },
+    {
+      "id": "2c42",
+      "nome": "Aline",
+      "cidade": "Rio de Janeiro"
+    }
+  ]
+}

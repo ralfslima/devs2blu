@@ -1,0 +1,56 @@
+<form [formGroup]="formularioPessoa">
+    <mat-form-field class="ocultarId">
+        <input matInput formControlName="id">
+    </mat-form-field>
+
+    <mat-form-field class="input">
+        <mat-label>Nome</mat-label>
+        <input matInput placeholder="Informe o nome" formControlName="nome">
+    </mat-form-field>
+
+    <mat-form-field class="input">
+        <mat-label>Cidade</mat-label>
+        <input matInput placeholder="Informe a cidade" formControlName="cidade">
+    </mat-form-field>
+
+    @if (btnCadastrar) {
+        <button matButton="elevated" (click)="cadastrar()" class="botao">Cadastrar</button>
+    }@else {
+        <button matButton="elevated" (click)="alterar()" class="botao">Alterar</button>    
+        <button matButton="elevated" (click)="remover()" class="botao">Remover</button>
+        <button matButton="elevated" (click)="cancelar()" class="botao">Cancelar</button>
+    }
+</form>
+
+<table mat-table [dataSource]="vetor" class="mat-elevation-z8">
+  <!-- Id -->
+  <ng-container matColumnDef="id">
+    <th mat-header-cell *matHeaderCellDef>ID</th>
+    <td mat-cell *matCellDef="let pessoa"> {{pessoa.id}} </td>
+  </ng-container>
+
+  <!-- Nome -->
+  <ng-container matColumnDef="nome">
+    <th mat-header-cell *matHeaderCellDef>NOME</th>
+    <td mat-cell *matCellDef="let pessoa"> {{pessoa.nome}} </td>
+  </ng-container>  
+  
+  <!-- Cidade -->
+  <ng-container matColumnDef="cidade">
+    <th mat-header-cell *matHeaderCellDef>CIDADE</th>
+    <td mat-cell *matCellDef="let pessoa"> {{pessoa.cidade}} </td>
+  </ng-container> 
+  
+  <!-- Selecionar -->
+  <ng-container matColumnDef="selecionar">
+    <th mat-header-cell *matHeaderCellDef>SELECIONAR</th>
+    <td mat-cell *matCellDef="let pessoa">  
+        <button matButton="elevated" (click)="selecionarPessoa(pessoa.id)">Selecionar</button>
+    </td>
+  </ng-container>
+
+  <!-- Nome das colunas -->
+  <tr mat-header-row *matHeaderRowDef="colunas"></tr>
+  <tr mat-row *matRowDef="let row; columns: colunas;"></tr>
+</table>
+
