@@ -45,7 +45,7 @@ O repositório no GitHub deve conter obrigatoriamente:
 
 # 👥 EQUIPES E ORDEM DE APRESENTAÇÃO
 
-## 🟢 Equipe 1 — *Pedro (Bancário)*
+## 🟢 Equipe 1 — *Nícolas (Bancário)*
 - Login
 - Criação de conta (formulário com saldo inicial)
 - Transferências
@@ -59,7 +59,7 @@ O repositório no GitHub deve conter obrigatoriamente:
 
 ---
 
-## 🔵 Equipe 3 — *Nícolas*
+## 🔵 Equipe 3 — *Pedro*
 - Loja virtual que **integra a API de Pagamentos** da Equipe 2
 
 ---
